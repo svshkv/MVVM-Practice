@@ -10,22 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var secondNameLabel: UILabel!
-    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var tableView: UITableView!
     
-    var viewModel: ViewModel! {
-        didSet {
-                self.nameLabel.text = viewModel.name
-                self.secondNameLabel.text = viewModel.secondName
-                self.ageLabel.text = viewModel.age
-            }
-    }
+    var viewModel: TableViewViewModelType?
+
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = ViewModel()
+        tableView.delegate = self
+        tableView.dataSource = self
         //profile = Profile(name: "Sasha", secondName: "Rutsman", age: 19)
     }
 
