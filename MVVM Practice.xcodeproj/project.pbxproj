@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22A780E92315503D00CB7768 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A780E82315503D00CB7768 /* Profile.swift */; };
+		22A780ED2315529000CB7768 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A780EC2315529000CB7768 /* ViewModel.swift */; };
 		22CC721123154FBF00DD7AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC721023154FBF00DD7AF8 /* AppDelegate.swift */; };
 		22CC721323154FBF00DD7AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC721223154FBF00DD7AF8 /* ViewController.swift */; };
 		22CC721623154FBF00DD7AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CC721423154FBF00DD7AF8 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		22A780E82315503D00CB7768 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		22A780EC2315529000CB7768 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		22CC720D23154FBF00DD7AF8 /* MVVM Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CC721023154FBF00DD7AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22CC721223154FBF00DD7AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				22CC721023154FBF00DD7AF8 /* AppDelegate.swift */,
 				22CC721223154FBF00DD7AF8 /* ViewController.swift */,
 				22A780E82315503D00CB7768 /* Profile.swift */,
+				22A780EC2315529000CB7768 /* ViewModel.swift */,
 				22CC721423154FBF00DD7AF8 /* Main.storyboard */,
 				22CC721723154FC100DD7AF8 /* Assets.xcassets */,
 				22CC721923154FC100DD7AF8 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				22CC721323154FBF00DD7AF8 /* ViewController.swift in Sources */,
 				22A780E92315503D00CB7768 /* Profile.swift in Sources */,
+				22A780ED2315529000CB7768 /* ViewModel.swift in Sources */,
 				22CC721123154FBF00DD7AF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
