@@ -11,4 +11,7 @@ import Foundation
 protocol TableViewViewModelType {
     var numberOfRows: Int { get }
     func cellViewModel(forIndexPath IndexPath: IndexPath) -> TableViewCellViewModelType?
+    
+    func viewModelForSelectedRow() -> DetailViewModelType?
+    func selectRow(atIndexPath: IndexPath)
 }

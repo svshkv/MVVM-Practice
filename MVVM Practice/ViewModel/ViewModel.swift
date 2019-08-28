@@ -10,6 +10,18 @@ import Foundation
 
 class ViewModel: TableViewViewModelType {
     
+    private var selectedIndexPath: IndexPath?
+    
+    func viewModelForSelectedRow() -> DetailViewModelType? {
+        guard let selectedIndexPath = selectedIndexPath else { return nil }
+        return DetailViewModel(profile: profiles[selectedIndexPath.row])
+    }
+    
+    func selectRow(atIndexPath: IndexPath) {
+        self.selectedIndexPath = atIndexPath
+    }
+    
+    
     func cellViewModel(forIndexPath IndexPath: IndexPath) -> TableViewCellViewModelType? {
         let profile = profiles[IndexPath.row]
         return TableViewCellViewModel(profile: profile)
